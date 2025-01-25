@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+article > div > div > h2 {
+    padding-left: 5px;
+}
+
+article div:first-of-type {
+    color:burlywood;
+}
+
+article div:last-of-type {
+    color: yellowgreen;
+}
+
+article > img {
+    height: 200px;
+    width: 200px;
+}
+
+section > div input {
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+section > div > label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+    flex-basis: 130px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.formcontrol {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input[type="button"] {
+    color: blue;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
